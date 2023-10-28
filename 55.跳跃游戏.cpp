@@ -38,24 +38,17 @@ public:
         //     }            
         //     else{
         //         visited[i]=true;
-        //         int nextIndex=i+nums[i];
-        //         if(nextIndex>=nums.size()-1) return true;
-        //         while(nextIndex>=i&&nums[nextIndex]==0)nextIndex--;
-        //         while(nextIndex>=0&&(visited[nextIndex]||nums[nextIndex]==0))nextIndex--;
-        //         if(nextIndex<0) return false;
-        //         i=nextIndex;
-        //     }
-        // }
-        // return true;
-
-        //看了文章。。。一下子就悟了。。。可恶真没想到，尽管我的也过了
-        int cover=0;
-        if(nums.size()==1) return true;
-        for(int i=0;i<=cover;i++){
-            if(cover<i+nums[i])cover=i+nums[i];
-            if(cover>=nums.size()-1) return true;
+                int nextIndex=i+nums[i];
+                if(nextIndex>=nums.size()-1) return true;
+                while(nextIndex>=i&&nums[nextIndex]==0)nextIndex--;
+                while(nextIndex>=0&&(visited[nextIndex]||nums[nextIndex]==0))nextIndex--;
+                if(nextIndex<0) return false;
+                i=nextIndex;
+            }
         }
-        return false;
+        return true;
+
+      
     }
 };
 // @lc code=end
