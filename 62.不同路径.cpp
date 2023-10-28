@@ -1,7 +1,3 @@
-// @before-stub-for-debug-begin
-#include <vector>
-#include <string>
-// #include "commoncppproblem62.h"
 
 using namespace std;
 // @before-stub-fordasdasd

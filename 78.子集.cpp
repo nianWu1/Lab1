@@ -29,7 +29,8 @@ public:
     /// @brief 
     /// @param nums 整数数组，元素各不相同 
     /// @return nums所有可能的子集
-    vector<vector<int>> subsets(vector<int>& nums) {
+    vector<vector<int>> subsets(vector<int>& nums) {的撒后来大家阿斯利康大家离开洒家看
+    
         //又是分割。。。
         res.push_back(vector<int>());
         solve(nums,0);

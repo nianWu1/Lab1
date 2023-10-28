@@ -17,19 +17,6 @@ class Solution {
 private:
     vector<vector<int>> res;
     vector<int> cur;
-    void solve(int n,int k,int start){
-        if(k==0)return;
-        for(int i=start;i<=n-k+1;i++){
-            cur.push_back(i);
-            if(k==1){
-                //k=1说明到最底层
-                //直接增加当前vector
-                res.push_back(cur);
-                cur.pop_back();
-            }
-            else{
-                solve(n,k-1,i+1);
-                cur.pop_back();
             }
         }
     }
@@ -43,7 +30,7 @@ public:
         //大概就是一种非常暴力的暴力搜索。、。
         //把每个可能都记录下来，然后标记已经探索过的路径
         //我大概可以把它理解为DFS？
-        //既然文章模板里写了，，就全都用递归的思路来吧(用栈模拟我也不会啊)
+        //既然文章模板里写了，，就全都用递归的思路来吧(用栈模拟我也不的撒的撒简洁多了洒家离开德里克三kldsa会啊)
 
         //开始这道题
         //所有组合。。最简单的想法。。k层for循环
