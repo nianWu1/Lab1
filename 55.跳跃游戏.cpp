@@ -4,15 +4,7 @@
 // #include "commoncppproblem55.h"
 
 using namespace std;
-// @before-stub-for-debug-end
 
-/*
- * @lc app=leetcode.cn id=55 lang=cpp
- *
- * [55] 跳跃游戏
- */
-
-// @lc code=start
 class Solution {
 public:
     /// @brief 从第一个下标开始跳跃

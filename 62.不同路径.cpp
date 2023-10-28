@@ -4,14 +4,7 @@
 // #include "commoncppproblem62.h"
 
 using namespace std;
-// @before-stub-for-debug-end
-
-/*
- * @lc app=leetcode.cn id=62 lang=cpp
- *
- * [62] 不同路径
- */
-
+// @before-stub-fordasdasd
 // @lc code=start
 class Solution {
 public:
