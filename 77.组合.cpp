@@ -7,7 +7,7 @@ using namespace std;
 // @before-stub-for-debug-end
 
 /*
- * @lc app=leetcode.cn id=77 lang=cpp
+ * @lc app=leetcode.cn id=77 lang=cppddddddddddddddd
  *
  * [77] 组合
  */

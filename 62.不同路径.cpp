@@ -1,6 +1,13 @@
 
 using namespace std;
-// @before-stub-fordasdasd
+// @before-stub-for-debug-end
+
+/*
+ * @lc app=leetcode.cn id=62 lang=cpp
+ *
+ * [62] 不同路径
+ */aaaaaaaaaaaaaaaa
+
 // @lc code=start
 class Solution {
 public:

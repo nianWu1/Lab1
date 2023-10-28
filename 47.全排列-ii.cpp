@@ -1,17 +1,4 @@
-// @before-stub-for-debug-begin
-#include <vector>
-#include <string>
-#include <unordered_set>
-// #include "commoncppproblem47.h"
 
-using namespace std;
-// @before-stub-for-debug-end
-
-/*
- * @lc app=leetcode.cn id=47 lang=cpp
- *
- * [47] 全排列 II
- */
 
 // @lc code=start
 class Solution {
