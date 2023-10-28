@@ -7,14 +7,7 @@ using namespace std;
 // @before-stub-for-debug-end
 
 /*
- * @lc app=leetcode.cn id=55 lang=cpp
- *
- * [55] 跳跃游戏
- */
 
-// @lc code=start
-class Solution {
-public:
     /// @brief 从第一个下标开始跳跃
     /// @param nums 非负整数数组，每个元素代表在该位置可以跳跃的最大长度
     /// @return 是否可以跳跃到最后一个下标

@@ -1,19 +1,6 @@
 // @before-stub-for-debug-begin
 #include <vector>
-#include <string>
-#include <algorithm>
-// #include "commoncppproblem90.h"
-
-using namespace std;
-// @before-stub-for-debug-end
-
-/*
- * @lc app=leetcode.cn id=90 lang=cpp
- *
- * [90] 子集 II
- */
-
-// @lc code=start
+#include <
 class Solution {
 private:
     vector<vector<int>> res;
